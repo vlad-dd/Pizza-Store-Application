@@ -6,7 +6,6 @@ import { useDispatch, useSelector } from 'react-redux'
 import { duplicatePizzaActionCreator } from '../../redux/CartReducer'
 
 const Pizza = ({name, image, price, types, sizes, setPizza, category, testClass, id }) => {
-
   const dispatch = useDispatch();
   
     const [addedSize, setAddedSize] = useState(null)
