@@ -45,7 +45,7 @@ const App = () => {
    <Route exact path='/cart' component={() => <Cart/>} /> 
    <Route path='/home' render={Header} /> 
    <Route path='/home' render={Main} /> 
-   <Route path='/' render={Redirect} /> 
+   <Route exact path='/' render={Redirect} /> 
       
     </div>
     </div>

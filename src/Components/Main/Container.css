@@ -7,11 +7,13 @@
 
 .allPizzasContainer {
     overflow: auto;
-    padding: 15px;
+    padding: 14px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 
 }
+
+
 
 .active_buttons {
     height: 20px;
