@@ -22,3 +22,14 @@
     box-shadow: -4px 0px 21px 4px rgba(34, 60, 80, 0.2);
     transform: translateY(-5px);
 }
+
+.redirect_block {
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.redirect_image {
+    height: 100px;
+}
