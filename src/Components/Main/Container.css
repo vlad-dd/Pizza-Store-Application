@@ -1,0 +1,24 @@
+.allPizzas {
+    overflow: auto;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.allPizzasContainer {
+    overflow: auto;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.active_buttons {
+    height: 20px;
+    cursor: pointer;
+}
+
+.active_buttons:active {
+    box-shadow: -4px 0px 21px 4px rgba(34, 60, 80, 0.2);
+    transform: translateY(-5px);
+}
