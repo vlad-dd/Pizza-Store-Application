@@ -7,6 +7,7 @@ import axios from 'axios'
 import { useDispatch, useSelector } from 'react-redux'
 import { getPizzaActionCreator } from './redux/CartReducer'
 import { setTotalActionCreator, setCountActionCreator } from './redux/PizzaReducer'
+import { NavLink } from 'react-router-dom'
 
 const App = () => {
 
@@ -39,15 +40,19 @@ const App = () => {
 
 
   return (
+    <NavLink to ='/home'>
     <div>
       
-   <div className="wrapper">
-   <Route exact path='/cart' component={() => <Cart/>} /> 
-   <Route path='/home' render={Header} /> 
-   <Route path='/home' render={Main} /> 
-      
-    </div>
-    </div>
+      <div className="wrapper">
+      <Route exact path='/cart' component={() => <Cart/>} /> 
+      <Route path='/home' render={Header} /> 
+      <Route path='/home' render={Main} /> 
+         
+       </div>
+       </div>
+    </NavLink>
+
+
   )
 }
 
