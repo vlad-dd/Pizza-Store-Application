@@ -43,8 +43,8 @@ const App = () => {
       
    <div className="wrapper">
    <Route exact path='/cart' component={() => <Cart/>} /> 
-   <Route exact path='/' render={Header} /> 
-   <Route exact path='/' render={Main} /> 
+   <Route path='/home' render={Header} /> 
+   <Route path='/home' render={Main} /> 
       
     </div>
     </div>
