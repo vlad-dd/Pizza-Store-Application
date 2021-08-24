@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/finally-pizza/static/css/main.7cb7a61b.chunk.css",
+    "main.js": "/finally-pizza/static/js/main.473e1f05.chunk.js",
+    "main.js.map": "/finally-pizza/static/js/main.473e1f05.chunk.js.map",
+    "runtime-main.js": "/finally-pizza/static/js/runtime-main.45eeed1e.js",
+    "runtime-main.js.map": "/finally-pizza/static/js/runtime-main.45eeed1e.js.map",
+    "static/js/2.2ad44d58.chunk.js": "/finally-pizza/static/js/2.2ad44d58.chunk.js",
+    "static/js/2.2ad44d58.chunk.js.map": "/finally-pizza/static/js/2.2ad44d58.chunk.js.map",
+    "static/js/3.8782916a.chunk.js": "/finally-pizza/static/js/3.8782916a.chunk.js",
+    "static/js/3.8782916a.chunk.js.map": "/finally-pizza/static/js/3.8782916a.chunk.js.map",
+    "index.html": "/finally-pizza/index.html",
+    "static/css/main.7cb7a61b.chunk.css.map": "/finally-pizza/static/css/main.7cb7a61b.chunk.css.map",
+    "static/js/2.2ad44d58.chunk.js.LICENSE.txt": "/finally-pizza/static/js/2.2ad44d58.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/finally-pizza/static/media/ProximaNova-Regular.d97f8f32.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45eeed1e.js",
+    "static/js/2.2ad44d58.chunk.js",
+    "static/css/main.7cb7a61b.chunk.css",
+    "static/js/main.473e1f05.chunk.js"
+  ]
+}
