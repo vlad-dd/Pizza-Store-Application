@@ -35,3 +35,8 @@
 .redirect_image {
     height: 100px;
 }
+
+.info_button {
+    display: inline-block;
+    float: right;
+}

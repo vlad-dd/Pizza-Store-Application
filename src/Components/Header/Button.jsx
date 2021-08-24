@@ -1,5 +1,6 @@
 import{ useSelector } from 'react-redux'
 import {NavLink} from 'react-router-dom'
+import '../Main/Container.css'
 
 const Button = () => {
   let total = useSelector(state => state.PizzaReducer.total)
@@ -8,7 +9,7 @@ const Button = () => {
 
     return (
       <NavLink to='/cart'>
-        <div>
+        <div className='info_button'>
              <a href="/cart.html" className="button button--cart">
               <span>{total} грн</span>
               <div className="button__delimiter"></div>

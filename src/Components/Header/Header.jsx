@@ -1,10 +1,11 @@
 import React from 'react'
-import Button from './Button'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
   
     return (
-        <div>
+      <NavLink to='/home'>
+         <div>
         <div className="header">
         <div className="container">
          
@@ -15,13 +16,13 @@ const Header = () => {
               <p>Best pizza in the world</p>
             </div>
           </div>
-          <div className="header__cart">
-            <Button />
-           
+          <div className="header__cart"> 
           </div>
         </div>
       </div>
         </div>
+      </NavLink>
+       
     )
 }
 

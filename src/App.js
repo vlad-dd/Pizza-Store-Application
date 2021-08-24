@@ -7,7 +7,6 @@ import axios from 'axios'
 import { useDispatch, useSelector } from 'react-redux'
 import { getPizzaActionCreator } from './redux/CartReducer'
 import { setTotalActionCreator, setCountActionCreator } from './redux/PizzaReducer'
-import Redirect from './Components/Common/Redirect'
 
 const App = () => {
 
@@ -43,9 +42,8 @@ const App = () => {
     <div>
    <div className="wrapper">
    <Route exact path='/cart' component={() => <Cart/>} /> 
-   <Route path='/home' render={Header} /> 
+   <Route path='/' render={Header} /> 
    <Route path='/home' render={Main} /> 
-   <Route exact path='/' render={Redirect} /> 
       
     </div>
     </div>
