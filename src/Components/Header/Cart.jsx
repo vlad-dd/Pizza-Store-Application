@@ -11,10 +11,6 @@ const Cart = () => {
 
     let total = useSelector(state => state.PizzaReducer.total)
 
-    const [blya, setBlya] = useState(null)
-
-  
-
     let qwewe = orderInfo.map((el) => {
             return ((<Items id = {el.id} name = {el.name} image = {el.image} size = {el.size} type = {el.type} price = {el.price} />))
     })
@@ -25,7 +21,6 @@ const Cart = () => {
     return (
         <div>
             <div>
-                <Home />
             </div>
             <div>
                 {qwewe}

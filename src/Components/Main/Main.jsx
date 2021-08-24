@@ -6,6 +6,7 @@ import  { useEffect, useState } from 'react'
 import axios from 'axios'
 import Container from './Container'
 import Button from '../Header/Button'
+import './Container.css'
 
 
 const Main = () => {

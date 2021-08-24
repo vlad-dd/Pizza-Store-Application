@@ -41,8 +41,8 @@ const App = () => {
   return (
     <div>
    <div className="wrapper">
-   <Route exact path='/cart' component={() => <Cart/>} /> 
    <Route path='/' render={Header} /> 
+   <Route exact path='/cart' component={() => <Cart/>} /> 
    <Route path='/home' render={Main} /> 
       
     </div>
